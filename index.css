@@ -1,0 +1,165 @@
+.nav-bar-container{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  width: 100vw;
+  background-color: rgba(61, 61, 61, .6);
+  height: 17vh;
+  align-items: center;
+}
+.navbar-nav{
+  display: flex;
+  flex-direction: row;
+  margin-left: 9vw;
+  
+}
+.navbar-nav li{
+  display: flex;
+  justify-content: space-between;
+  /* margin-right: 5vw; */
+  margin-left: 2vw;
+}
+.background-second-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  background-color: #2274A5 ;
+ 
+}
+.navbar-nav a{
+  color: #98C1D9;
+  text-decoration-style: none;
+  font-weight: bold;
+}
+.arrows{
+  color: white;
+  background-color: rgba(61, 61, 61, .8);
+  width: 5vw;
+  height: 5vw;
+}
+.main-paige-house-images{
+  height: 76vh;
+  position: center;
+  margin-top: 1vh;
+  border-radius: 10px;
+}
+.carasel-section{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  /* margin-top: 1vh; */
+}
+.bottom-blue{
+  height:10vh;
+  margin-top: 0 auto;
+  width: 100vw;
+  background-color: #2274A5;
+}
+.carousel-caption-background{
+  background-color: rgba(61, 61, 61, .6)
+}
+.fill-blue-background{
+  height: 4vh;
+  background-color: #2274A5;
+}
+.carousel-border{
+  border-right: 5px solid #3D3D3D;
+  border-left: 5px solid #3D3D3D;
+  border-top: 5px solid #3D3D3D;
+  border-bottom: 5px solid #3D3D3D;
+}
+.contact-us-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #BDD5EA;
+  color: black;
+  border: 1px solid #3D3D3D;
+  border-radius: 10%;
+  margin-top: 2vh;
+  font-size: 14px;
+  width: 14vw;
+  height: 25vh;
+  position: fixed;
+}
+.image-row{
+  display: flex;
+  justify-content: center;
+  /* margin-top: 5vh; */
+  width: 100vw;
+  border: 1px solid rgba(61, 61, 61, .6);
+  /* border-radius: 50px; */
+  margin: 0px;
+  background-color: #BDD5EA;
+  padding: 20px;
+  /* margin-left: 0px; */
+  /* margin-left: 0px;  */
+  /* margin-right: 0px; */
+}
+.all-the-images-container{
+  background-color: #BDD5EA;
+  /* padding: 0px; */
+  /* margin-left: 0px; */
+  /* margin: 0px; */
+}
+.eachImageDiv{
+  height: 25vh;
+  /* border-radius: 50px; */
+  background-color: #BDD5EA;
+  
+}
+.imageGalleryHeading{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #BDD5EA;
+  font-family: cursive;
+  padding: 27px;
+  text-decoration: underline;
+  color: #3A405A;
+}
+.imageGallerPageContainer{
+  background-color: #BDD5EA;
+}
+.aboutUsHeader{
+  display: flex;
+  align-items: center;
+  background-image: url("http://majesticoceangrove.com/wp-content/uploads/2014/09/beachtop.jpg");
+  height: 85vh;
+  opacity: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+  /* border: 4px solid #083D77; */
+}
+.informationAboutTheProperty ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+.informationAboutTheProperty h4{
+  padding: 15px;
+}
+.informationAboutTheProperty{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  padding: 5px;
+  height: 70vh;
+  background-color: #0e227c99;
+  border: 3px solid #BDD5EA;
+  border-radius: 60px;
+  color: white;
+}
+.informationAboutTheProperty li{
+  margin-top: 10px;
+  list-style-type: circle;
+  margin-left: 3vw;
+  /* list-style-type: decimal-leading-zero; */
+  /* justify-content: space-between; */
+}
